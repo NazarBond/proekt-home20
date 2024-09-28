@@ -1,0 +1,347 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1031px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  opacity: 0.8;
+  background: rgba(43, 74, 97, 0.87);
+  border-bottom: 3px solid #ffffff;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 10px 20px;
+  gap: 20px;
+}
+nav ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+  margin: 0 15 15;
+}
+
+nav ul li a:hover {
+  color: var(--secondary-color);
+}
+.section {
+  background-image: url(./img/фон.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+  padding-bottom: 179px;
+  padding-right: 860px;
+  padding-left: 204px;
+  height: 740px;
+}
+.section1 {
+  background-image: url(./img/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 740px;
+  padding-top: 58px;
+  padding-bottom: 57px;
+}
+.container2 {
+  width: 376px;
+  height: 123px;
+  justify-content: space-between;
+}
+.navi {
+  width: 298px;
+  justify-content: space-between;
+  /* Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä hapxì. Säwem nìayoeng! */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.flex {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.section3 {
+  background-image: url(./img/трейлер.png);
+  background-size: cover;
+  height: 741px;
+  padding-bottom: 331px;
+  padding-top: 330px;
+  padding-right: 590px;
+  padding-left: 590px;
+}
+.sec-h2 {
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height */
+  text-align: center;
+  color: #141414;
+  margin-bottom: 45px;
+}
+.ul {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 36px;
+  grid-row-gap: 24px;
+  list-style: none;
+}
+.li {
+  width: 320px;
+  height: 240px;
+
+  background: rgba(255, 255, 255, 0.7);
+  background-image: url(./img/Rectangle\ 42.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.li1 {
+  width: 320px;
+  height: 240px;
+  background: rgba(255, 255, 255, 0.7);
+  background-image: url(./img/меч\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.li2 {
+  width: 320px;
+  height: 240px;
+
+  background: rgba(255, 255, 255, 0.7);
+  background-image: url(./img/стрілка.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.p {
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 120px;
+
+  color: #141414;
+}
+.p1 {
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.centre {
+  text-align: center;
+}
+
+.button1 {
+  /* Group 18 */
+  width: 260px;
+  height: 80px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: #0b0e66;
+  border: 2px solid #26c7ea;
+  border-radius: 35px 0px;
+  /* Приєднатися до клану */
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #26c7ea;
+  margin-top: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  margin: 0 auto;
+}
+.img1 {
+  display: block;
+  margin: 0 auto;
+}
+.sec-1 {
+  padding-top: 75px;
+  padding-bottom: 10px;
+}
+.p-1 {
+  /* “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #0a3853;
+}
+.h3-1 {
+  /* Джейк Саллі */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.sec-2 {
+  padding-top: 330px;
+  padding-bottom: 330px;
+  background-image: url(./img/аватарка.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.but-1 {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-2 {
+  background: rgba(255, 255, 255, 0.7);
+  background-image: url(./img/велика\ пташка.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.li-1 {
+  background-image: url(./img/мал\ пташка.png);
+}
+.li-2 {
+  background-image: url(./img/меч\ 1.png);
+}
+.butt-head {
+  /* Group 18 */
+  width: 150px;
+  height: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: #0b0e66;
+  border: 2px solid #26c7ea;
+  border-radius: 35px 0px;
+  /* Приєднатися до клану */
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #26c7ea;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.button2 {
+  margin-left: 0;
+  margin-top: 52px;
+}
+.div-footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 25px;
+}
+footer {
+  opacity: 0.8;
+  background: rgba(43, 74, 97, 0.87);
+  border-bottom: 3px solid #ffffff;
+  background-image: url(./img/фон.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.p-footer {
+  /* Q&A E-mail */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  color: #ffffff;
+}
+.p-footer1 {
+  /* Q&A E-mail */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  color: #ffffff;
+}
+.img-footer {
+  padding-right: 80px;
+  border-right: 1px solid white;
+  margin-right: 80px;
+}
+.p-footer2 {
+  /* ©2023 Avatar: The Way Of Water. All rights reserved */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
